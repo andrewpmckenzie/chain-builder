@@ -1,7 +1,7 @@
 {
   "name": "chainbuilder",
   "version": "2.2.0",
-  "description": "Construct a chainable library from a set of async functions.",
+  "description": "Async fluent interfaces that are simple to create.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
@@ -17,14 +17,15 @@
     "module",
     "utility",
     "callback",
+    "fluent",
     "promise"
   ],
-  "author": "andrew.mckenzie@electronifie.com",
+  "author": "andrewpmckenzie@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/electronifie/chain-builder/issues"
+    "url": "https://github.com/andrewpmckenzie/chain-builder"
   },
-  "homepage": "https://github.com/electronifie/chain-builder",
+  "homepage": "https://github.com/andrewpmckenzie/chain-builder",
   "devDependencies": {
     "chai": "^3.4.1",
     "ink-docstrap": "^1.1.0",
